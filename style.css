@@ -1,0 +1,138 @@
+body {
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #EEEEEE;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #6F6F6F, #000);
+    border-radius: 8px;
+    border: 3px solid #EEEEEE;
+  }
+
+header {
+    width: 100%;
+    height: 100px; 
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -40px;
+}
+
+section {
+    width: 100%;
+    height: 850px;
+}
+
+ img {
+    width: 300px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.filmName {
+    color: gray;
+}
+
+.viewsNum {
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+}
+
+.uploadData {
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+iframe {
+    width: inherit;
+    height: inherit;
+    border: none;
+}
+
+.block {
+    width: 300px;
+    height: 850px;
+    float: right;
+    margin-right: 25px;
+}
+
+.block2 {
+    width: 300px;
+    height: 850px;
+    float: right;
+    margin-right: 25px;
+}
+
+.box {
+    width: 300px;
+    height: 260px;
+    padding: 5px;
+    display: block;
+    background-color: #181818;
+    transition: .3s;
+}
+
+.box:hover {
+    background-color: #222222;
+}
+
+
+.videoSec {
+    width: 600px;
+    height: 350px;
+    background-color: rgba(83, 82, 82, 0.315);
+    position: absolute;
+    left: 3%;
+    transform: translate(-50 -50);
+}
+
+.playCirculIcon {
+    position: absolute;
+    left: 60%;
+    top: 18%;
+}
+
+.playCirculIcon img {
+    width: 70px;
+    height: 70px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.playCirculIcon img:hover {
+    transform: scale(1.1)
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spaceBetween {
+    width: 500px;
+}
+
+.footerTxtLeftSide {
+    float: right;
+}
